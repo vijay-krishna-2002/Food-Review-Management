@@ -21,10 +21,10 @@
                 echo '<div class="label-container">';
                 echo '<label>' . htmlspecialchars($question) . '</label>';
                 echo '<div class="radio-container">';
-                echo '<input type="radio" name="question[' . htmlspecialchars($question) . ']" value="5">';
-                echo '<input type="radio" name="question[' . htmlspecialchars($question) . ']" value="4">';
-                echo '<input type="radio" name="question[' . htmlspecialchars($question) . ']" value="3">';
-                echo '<input type="radio" name="question[' . htmlspecialchars($question) . ']" value="2">';
+                echo '<input type="radio" name="question[' . htmlspecialchars($question) . ']" value="5" required>';
+                echo '<input type="radio" name="question[' . htmlspecialchars($question) . ']" value="4" required>';
+                echo '<input type="radio" name="question[' . htmlspecialchars($question) . ']" value="3" required>';
+                echo '<input type="radio" name="question[' . htmlspecialchars($question) . ']" value="2" required>';
                 echo '</div>';
                 echo '</div>';
             }
